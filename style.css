@@ -87,15 +87,22 @@
 
     .aba-conteudo-titulo-secundario{
         text-align: center;
-        color: var(--verde);
+        justify-content: center;
         text-transform: uppercase;
     }
 
     .contador{
-        font-size: 20px;
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .contador-digito{
+    padding: auto 0;
+    text-align: center;
+    min-width: 100px;
     }
 
+    .contador-digito-numero
 
 
 
