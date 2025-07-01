@@ -35,6 +35,8 @@ function calculaTempo(tempoObjetivo){
     horas %=60;
 
     return (dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos ");
+}else{
+    return "Prazo finaliado!"
 }
 
 function atualizaCronometro(){
